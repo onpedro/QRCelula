@@ -19,6 +19,8 @@ private Button btnPlay;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_info);
+        m = MediaPlayer.create(Activity_info.this, R.raw.mitocondria);
+        m.start();
         final Activity activity = this;
         btnVoltar = (Button) findViewById(R.id.btnVoltar);
         btnPlay = (Button) findViewById(R.id.btnPlay);
@@ -26,6 +28,7 @@ private Button btnPlay;
         btnVoltar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                m.stop();
                 startActivity(new Intent(Activity_info.this , Activity_principal.class));
             }
         });

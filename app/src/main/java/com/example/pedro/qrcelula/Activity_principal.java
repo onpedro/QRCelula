@@ -62,7 +62,7 @@ private Button btnAcesso;
                     startActivity(new Intent(Activity_principal.this, Activity_info.class));
                 }else if (n.equals("complexo de golgi")){
                     Toast.makeText(this, "Complexo de Golgi", Toast.LENGTH_LONG).show();
-                    startActivity(new Intent(Activity_principal.this, Activity_info.class));
+                    startActivity(new Intent(Activity_principal.this, Activity_golgi.class));
                 }
             }
         }else{

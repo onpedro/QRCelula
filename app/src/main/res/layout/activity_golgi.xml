@@ -56,13 +56,13 @@
             app:srcCompat="@drawable/golgi" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/btnVoltar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Voltar" />
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/btnPlay"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Reiniciar áudio" />
