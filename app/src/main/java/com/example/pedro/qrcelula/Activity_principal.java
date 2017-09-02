@@ -56,17 +56,14 @@ private Button btnAcesso;
                 Toast.makeText(this, "Você cancelou o scanner!", Toast.LENGTH_LONG).show();
 
             }else {
-
                 String n = result.getContents();
                 if (n.equals("mitocondria")){
-                    Toast.makeText(this, "Mitocondria", Toast.LENGTH_LONG).show();
+                    Toast.makeText(this, "Mitocôndria", Toast.LENGTH_LONG).show();
                     startActivity(new Intent(Activity_principal.this, Activity_info.class));
                 }else if (n.equals("complexo de golgi")){
-
-                }else if(n.equals("membrana plasmatica")){
-
+                    Toast.makeText(this, "Complexo de Golgi", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(Activity_principal.this, Activity_info.class));
                 }
-
             }
         }else{
             super.onActivityResult(requestCode, resultCode, data);

@@ -26,7 +26,10 @@
         <activity
             android:name=".Activity_nos"
             android:theme="@style/AppCompat.TelaCheia" />
-        <activity android:name=".Activity_info"></activity>
+        <activity
+            android:name=".Activity_info"
+            android:theme="@style/AppCompat.TelaCheia" />
+        <activity android:name=".Activity_golgi" android:theme="@style/AppCompat.TelaCheia"></activity>
     </application>
 
 </manifest>
