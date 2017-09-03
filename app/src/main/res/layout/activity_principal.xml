@@ -2,34 +2,29 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ConstraintLayout"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     tools:context="com.example.pedro.qrcelula.Activity_principal">
 
-    <ImageView
-        android:id="@+id/imageView25"
-        android:layout_width="0dp"
+    <VideoView
+        android:id="@+id/videoView2"
+        android:layout_width="403dp"
         android:layout_height="wrap_content"
         android:layout_weight="0.01"
+        android:adjustViewBounds="true"
         android:scaleType="centerCrop"
-        app:srcCompat="@drawable/teleprincipale"
-        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteX="-11dp"
         tools:layout_editor_absoluteY="0dp" />
 
     <LinearLayout
         android:layout_width="359dp"
         android:layout_height="593dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
         android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView25"
-        app:layout_constraintHorizontal_bias="0.555"
-        app:layout_constraintLeft_toLeftOf="@+id/imageView25"
-        app:layout_constraintRight_toRightOf="@+id/imageView25"
-        app:layout_constraintTop_toTopOf="@+id/imageView25"
-        app:layout_constraintVertical_bias="0.47">
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="0dp">
 
         <TextView
             android:id="@+id/textView13"
@@ -55,8 +50,9 @@
             android:fontFamily="cursive"
             android:text="Bem vindo ao QRCélula!"
             android:textAlignment="center"
-            android:textColor="#000"
+            android:textColor="#fff"
             android:textSize="30sp"
+            android:textStyle="bold"
             tools:layout_editor_absoluteX="75dp"
             tools:layout_editor_absoluteY="244dp" />
 
