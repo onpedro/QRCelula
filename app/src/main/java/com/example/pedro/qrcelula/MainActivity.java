@@ -7,7 +7,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
-    private MediaPlayer m;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -19,8 +18,6 @@ public class MainActivity extends AppCompatActivity {
                 mostrarPrincipal();
             }
         },3000);
-        m = MediaPlayer.create(MainActivity.this,R.raw.m);
-        m.start();
 
     }
     public void mostrarPrincipal(){
