@@ -36,7 +36,7 @@ private Button btnPlay;
             @Override
             public void onClick(View v) {
                 if (m == null){
-                    m = MediaPlayer.create(Activity_info.this, R.raw.stuck);
+                    m = MediaPlayer.create(Activity_info.this, R.raw.mitocondria);
                     m.start();
                 }else{
                     m.start();
