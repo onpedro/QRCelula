@@ -66,6 +66,11 @@ private Button btnAcesso;
         if (result != null){
             if (result.getContents()==null){
                 Toast.makeText(this, "Você cancelou o scanner!", Toast.LENGTH_LONG).show();
+                view = (VideoView)findViewById(R.id.videoView2);
+                String path = "android.resource://" +getPackageName()+"/"+R.raw.videointro;
+                view.setVideoURI(Uri.parse(path));
+                view.seekTo(0);
+                view.start();
 
             }else {
                 String n = result.getContents();

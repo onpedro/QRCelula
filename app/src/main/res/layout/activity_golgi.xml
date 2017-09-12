@@ -16,11 +16,11 @@
         tools:layout_editor_absoluteX="0dp" />
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="369dp"
+        android:layout_height="542dp"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="18dp">
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="70dp">
 
         <TextView
             android:id="@+id/textView18"
