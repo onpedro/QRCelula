@@ -16,20 +16,21 @@
         tools:layout_editor_absoluteX="0dp" />
 
     <LinearLayout
-        android:layout_width="369dp"
-        android:layout_height="542dp"
+        android:layout_width="361dp"
+        android:layout_height="590dp"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="21dp"
-        tools:layout_editor_absoluteY="70dp">
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="46dp">
 
         <TextView
             android:id="@+id/textView18"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="cursive"
             android:text="Complexo de Golgi"
             android:textAlignment="center"
             android:textColor="#fff"
-            android:textSize="30sp"
+            android:textSize="40sp"
             android:textStyle="bold" />
 
         <TextView
@@ -59,12 +60,19 @@
             android:id="@+id/btnVoltar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#ff0000"
             android:text="Voltar" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
         <Button
             android:id="@+id/btnPlay"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#008000"
             android:text="Reiniciar áudio" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

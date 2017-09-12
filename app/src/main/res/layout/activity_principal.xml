@@ -23,8 +23,8 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="26dp"
-        tools:layout_editor_absoluteY="0dp">
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="22dp">
 
         <TextView
             android:id="@+id/textView13"
@@ -33,14 +33,10 @@
             android:layout_weight="0.01" />
 
         <ImageView
-            android:id="@+id/imageView23"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.01"
-            android:scaleType="fitCenter"
-            app:srcCompat="@mipmap/ic_qrcelula"
-            tools:layout_editor_absoluteX="122dp"
-            tools:layout_editor_absoluteY="114dp" />
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="133dp"
+            app:srcCompat="@drawable/qr_logo" />
 
         <TextView
             android:id="@+id/textView12"
@@ -48,7 +44,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.01"
             android:fontFamily="cursive"
-            android:text="Bem vindo ao QRCélula!"
+            android:text="\n Bem vindo ao QRCélula!"
             android:textAlignment="center"
             android:textColor="#fff"
             android:textSize="30sp"
